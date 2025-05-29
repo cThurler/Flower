@@ -7,9 +7,9 @@ Atualmente simula a autenticação e gerenciamento de usuários, o projeto utili
 
 Em desenvolvimento com 
 
-- **React** 
-- **TypeScript**
-- **Tailwind CSS**
+- ## **React** 
+- ## **TypeScript**
+- ## **Tailwind CSS**
 
 ---
 
