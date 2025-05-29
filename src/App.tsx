@@ -1,13 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// src/App.tsx
+import { Routes, Route } from 'react-router-dom';
+import Login from './pages/Login';
+import Register from './pages/Register';
+import Dashboard from './pages/Dashboard';
+import NotFound from './pages/NotFound'; // crie esse se não existir
 
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-blue-100 text-3xl font-bold text-blue-800">
-      Tailwind funcionando com React! 🚀
-    </div>
+    <Routes>
+      <Route path="/" element={<Dashboard />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/register" element={<Register />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
   );
 }
 
