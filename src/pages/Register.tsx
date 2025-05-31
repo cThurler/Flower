@@ -30,7 +30,7 @@ function Register() {
         onSubmit={handleRegister}
         className="bg-white p-6 rounded shadow-md w-80 space-y-4"
       >
-        <h2 className="text-xl font-bold text-center">Registrar</h2>
+        <h2 className="text-xl font-bold text-center dark">Registrar</h2>
         {error && <p className="text-red-500 text-sm">{error}</p>}
         <input
           className="w-full border px-3 py-2 rounded"
