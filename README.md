@@ -1,4 +1,4 @@
-# Flower
+# ReactProducts
 
 # Ainda não há autenticação segura implementada, pois o projeto não possui backend.
 
